@@ -1,0 +1,7 @@
+linkermuisknop is selecteren van de unit, en verplaatsen
+rechtermuisknop is draaien/richten van de unit
+
+soldaten kunnen niet schieten als ze lopen
+radar werkt niet als je de researcher verplaatst (soms wel, maar dit moet nog gefixed worden)
+
+backspace is debug mode aan en uit.
