@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3e4a2aa3-8a33-4e4e-8d3f-fc1b0848ef5f",
+            "Value": {
+                "id": "439fb12c-e65e-42ed-9c79-0893d2bdfad0",
+                "resourcePath": "sprites\\sRadar\\sRadar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43edd782-10ea-4a0a-a2ef-a5b37baa34c0",
             "Value": {
                 "id": "59827f3f-fea5-4d72-a733-48df153b000e",

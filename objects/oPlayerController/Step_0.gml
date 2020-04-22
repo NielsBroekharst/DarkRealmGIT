@@ -5,6 +5,7 @@
 #region //MOUSEBUTTON LEFT (FOR MOVING AND SELECTING)
 if mouse_check_button_pressed(mb_left){
 	var inst = instance_position(mouse_x,mouse_y,oPlayerParent);
+	//click on a playercharacter?
 	if inst != noone {
 		active_pawn = inst
 		with oViewCamera {
@@ -20,6 +21,7 @@ if mouse_check_button_pressed(mb_left){
 			
 		}
 	}else {
+		//click on ground with playercharacter selected?
 		if active_pawn !=noone {
 			if !instance_position(mouse_x,mouse_y,oSolid){
 				with active_pawn{
