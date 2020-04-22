@@ -1,0 +1,3 @@
+if shooting = true {
+	scrRadar();
+}
