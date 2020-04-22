@@ -7,5 +7,5 @@ var xx = irandom_range(-300,300)
 var yy = irandom_range(-300,300)
 instance_create_layer(x + xx,y + yy,"Instances",oEnemy);
 }
-alarm[0] = irandom_range(320,620)
-amount = irandom(15)
+alarm[0] = irandom_range(400,1220)
+amount = irandom(5)
