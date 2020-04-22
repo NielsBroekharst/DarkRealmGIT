@@ -4,3 +4,6 @@ targetX = x;
 targetY = y;
 
 followtarget = noone;
+
+//FOR TESTIN ONLY
+alarm[0] = 1

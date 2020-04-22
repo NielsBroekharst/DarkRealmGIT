@@ -2,7 +2,7 @@
     "id": "b22ee249-b467-4dde-bc3b-e08279e428db",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_TESTENEMYSPAWNER",
+    "name": "oTESTENEMYSPAWNER",
     "eventList": [
         {
             "id": "ee49f5bc-d602-4a56-a0db-d07d3fb99b43",

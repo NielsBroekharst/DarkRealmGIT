@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "117c10f9-9672-4536-9459-eccc0ce901fa",
+            "Value": {
+                "id": "9dab40ad-49ef-46d7-8522-1eeac99f498d",
+                "resourcePath": "views\\117c10f9-9672-4536-9459-eccc0ce901fa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "17a60a0c-af89-4cd0-801f-f54c7daecc9e",
             "Value": {
                 "id": "c8edf0ca-cae3-4d82-a8d1-04da276140a2",
@@ -175,14 +183,6 @@
             }
         },
         {
-            "Key": "7b8065e1-ebbe-4e3b-aac0-a7a47ef3cbce",
-            "Value": {
-                "id": "b3177069-4762-46f6-8d75-c03881fc06b5",
-                "resourcePath": "objects\\oDummy\\oDummy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8091cba3-abf7-4878-a445-04f7317b0c3f",
             "Value": {
                 "id": "900257c7-b04f-43c8-92cb-5ad11694c945",
@@ -282,7 +282,7 @@
             "Key": "b22ee249-b467-4dde-bc3b-e08279e428db",
             "Value": {
                 "id": "8cb9b817-a4bf-46a6-a2c7-011b53a06361",
-                "resourcePath": "objects\\o_TESTENEMYSPAWNER\\o_TESTENEMYSPAWNER.yy",
+                "resourcePath": "objects\\oTESTENEMYSPAWNER\\oTESTENEMYSPAWNER.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -412,6 +412,14 @@
                 "id": "ea4b0133-d927-4147-808d-1496dbf459fc",
                 "resourcePath": "views\\f6d47272-11c0-41e7-9404-409215e710bc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f83dc892-d6a4-454a-93f3-ce888fe4b8f6",
+            "Value": {
+                "id": "1917ad8f-9eb9-4e0f-9d6c-ceea54b6aabc",
+                "resourcePath": "objects\\oRANDOMSPAWNER\\oRANDOMSPAWNER.yy",
+                "resourceType": "GMObject"
             }
         },
         {
