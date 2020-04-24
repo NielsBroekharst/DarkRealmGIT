@@ -27,7 +27,7 @@ if !surface_exists(surf)
 		draw_set_alpha(1);
 		draw_rectangle(0, 0, _cw, _ch, 0);
 		gpu_set_blendmode(bm_subtract);
-		with (oPlayerParent)
+		with (oLightingParent)
 		    {
 				var _cx = camera_get_view_x(view_camera[0]);
 				var _cy = camera_get_view_y(view_camera[0]);
@@ -39,7 +39,9 @@ if !surface_exists(surf)
 					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,0.6,0.6, 0, c_white, 1);
 					draw_sprite_ext(sFlashlight, 0,x - _cx,y - _cy,0.9,1, image_angle, c_white, 0.7);break;
 				case oScientist:
-					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,1,1, 0, c_white, 1);	
+					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,1,1, 0, c_white, 1);break;
+				case oPortal:
+					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,2,2, 0, c_white, 1);break;
 				
 						}
 		    }

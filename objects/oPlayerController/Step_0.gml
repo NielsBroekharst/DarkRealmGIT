@@ -27,7 +27,7 @@ if mouse_check_button_pressed(mb_left){
 				with active_pawn{
 				targ_x = (mouse_x div Tilesize) * Tilesize + (Tilesize /2);
 				targ_y = (mouse_y div Tilesize) * Tilesize + (Tilesize /2);
-				mp_potential_path(path, targ_x,targ_y, 2, 8, true);
+				mp_potential_path_object(path, targ_x,targ_y, 2, 8,oSolid);
 				path_start(path,spd,0,true)				
 				}
 		

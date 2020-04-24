@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "136f7891-ddf4-41d6-aeaf-1527f1246734",
+            "Value": {
+                "id": "f92a58c2-4c8c-4bbd-bfbd-a105c078fde0",
+                "resourcePath": "objects\\oPortal\\oPortal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17a60a0c-af89-4cd0-801f-f54c7daecc9e",
             "Value": {
                 "id": "c8edf0ca-cae3-4d82-a8d1-04da276140a2",
@@ -79,6 +87,14 @@
             }
         },
         {
+            "Key": "2bf49a6c-cbd1-495d-a37e-99ee90b568f3",
+            "Value": {
+                "id": "b09bf693-cacd-4ad4-9c09-f69631ce1377",
+                "resourcePath": "sprites\\sPortal\\sPortal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "31caea86-2216-4348-b563-338de89280f3",
             "Value": {
                 "id": "c37c3055-84d6-4eaf-beb5-50e6c5108bd3",
@@ -100,6 +116,14 @@
                 "id": "aed44ba4-ac88-4364-b8a9-3803907ef26f",
                 "resourcePath": "views\\3901d260-5df1-4236-a664-f2f49c8ae029.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3aa9e022-b1ea-4f93-9b75-718d77e409a2",
+            "Value": {
+                "id": "cf5a3401-a123-4954-9fe9-aeb402e01223",
+                "resourcePath": "objects\\oLightingParent\\oLightingParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "b1f06c50-3705-475d-9b27-5dc2a5f45bfb",
+            "Value": {
+                "id": "da02c17b-1774-4308-a53b-8dc94be2ae11",
+                "resourcePath": "views\\b1f06c50-3705-475d-9b27-5dc2a5f45bfb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b22ee249-b467-4dde-bc3b-e08279e428db",
             "Value": {
                 "id": "8cb9b817-a4bf-46a6-a2c7-011b53a06361",
@@ -444,6 +476,14 @@
                 "id": "82fd3003-3ddf-4ed3-83f8-98fd504d3840",
                 "resourcePath": "views\\fb8d5baf-cc56-4420-92b0-4d9df80d5d88.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd95becd-85aa-4118-8bf8-3a05e3169357",
+            "Value": {
+                "id": "e2270ab8-49e4-4544-9728-3000536ff6fe",
+                "resourcePath": "objects\\oSolidInvis\\oSolidInvis.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
