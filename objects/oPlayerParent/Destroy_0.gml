@@ -4,4 +4,5 @@ path_delete(path);
 
 if selected == true {
 		oPlayerController.active_pawn = noone; 
+		oPlayerController.cam1.followtarget = noone; 
 }

@@ -8,14 +8,11 @@ if mouse_check_button_pressed(mb_left){
 	//click on a playercharacter?
 	if inst != noone {
 		active_pawn = inst
-		with oViewCamera {
-			//set followtarget camera
-			followtarget = other.active_pawn;
-			}
+		cam1.followtarget = active_pawn;
 		with oPlayerParent{
 			if id = other.active_pawn {
 				selected = true;
-			}else {
+				}else {
 				selected = false;	
 			}
 			
@@ -60,6 +57,32 @@ if keyboard_check_pressed(vk_backspace){
 	global.DEBUG = !global.DEBUG;	
 }
 
+//KEYBOARD SELECT PLAYER
+
+{
+switch	(keyboard_key)
+	{
+	case ord("1"):
+	active_pawn = teamlist[|0];break;
+	case ord("2"):
+	active_pawn = teamlist[|1];break;
+	case ord("3"):
+	active_pawn = teamlist[|2];break;
+	case ord("4"):
+	active_pawn = teamlist[|2];break;
+	default:
+	//do nothing
+	;break;
+	}
+	
+with oPlayerParent{
+			if id = other.active_pawn {
+				selected = true;
+				}else {
+				selected = false;	
+			}	
+	}
+}
 
 //MINI MAP
 

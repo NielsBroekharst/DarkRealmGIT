@@ -36,10 +36,10 @@ if !surface_exists(surf)
 				case oSoldier:
 				
 				
-					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,0.6,0.6, 0, c_white, 1);
+					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,2,2, 0, c_white, 1);
 					draw_sprite_ext(sFlashlight, 0,x - _cx,y - _cy,0.9,1, image_angle, c_white, 0.7);break;
 				case oScientist:
-					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,1,1, 0, c_white, 1);break;
+					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,2,2, 0, c_white, 1);break;
 				case oPortal:
 					draw_sprite_ext(sLight, 0,x -  _cx ,y - _cy,2,2, 0, c_white, 1);break;
 				

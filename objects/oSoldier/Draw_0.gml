@@ -7,7 +7,7 @@ if global.DEBUG {
 		for (i = 0; i < sight_angle/2; i += 1){
 			draw_line(x,y,x + lengthdir_x(sight_len,image_angle - (sight_angle /2) + (i*2)), y + lengthdir_y(sight_len,image_angle - (sight_angle /2)+ (i*2)));
 	}
-	draw_circle_color(x,y,700,c_white,c_white,true)
+	
 }
 draw_path(path,x,y,true);
 draw_text(x,y,targ);
