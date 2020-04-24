@@ -63,16 +63,14 @@ if keyboard_check_pressed(vk_backspace){
 switch	(keyboard_key)
 	{
 	case ord("1"):
-	active_pawn = teamlist[|0];break;
+	active_pawn = teaminfo[# 0,0];break;
 	case ord("2"):
-	active_pawn = teamlist[|1];break;
+	active_pawn = teaminfo[# 0,1];break;
 	case ord("3"):
-	active_pawn = teamlist[|2];break;
+	active_pawn = teaminfo[# 0,2];break;
 	case ord("4"):
-	active_pawn = teamlist[|2];break;
-	default:
-	//do nothing
-	;break;
+	active_pawn = teaminfo[# 0,3];break;
+	
 	}
 	
 with oPlayerParent{

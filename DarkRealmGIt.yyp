@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "0bc5332e-1fa2-4e28-aa08-36ed2993e308",
+            "Value": {
+                "id": "17d62120-8ec6-4a40-b1b2-21bc35b242ab",
+                "resourcePath": "sprites\\sSoldierPort\\sSoldierPort.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0c38fcaa-210e-4548-9c59-d96e4019223d",
+            "Value": {
+                "id": "c745d92c-b8e9-4853-8774-33eb86d07e52",
+                "resourcePath": "sprites\\sScientistPort\\sScientistPort.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "117c10f9-9672-4536-9459-eccc0ce901fa",
             "Value": {
                 "id": "9dab40ad-49ef-46d7-8522-1eeac99f498d",
@@ -115,6 +131,14 @@
             "Value": {
                 "id": "aed44ba4-ac88-4364-b8a9-3803907ef26f",
                 "resourcePath": "views\\3901d260-5df1-4236-a664-f2f49c8ae029.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "390ecd72-7f27-4504-b0b1-f9874e320b05",
+            "Value": {
+                "id": "d28996bc-1a52-4af0-80a7-68f5566cd68b",
+                "resourcePath": "views\\390ecd72-7f27-4504-b0b1-f9874e320b05.yy",
                 "resourceType": "GMFolder"
             }
         },

@@ -15,7 +15,9 @@ aim_angle = 0;
 
 
 //movement
-targ_x = x;
+targ_x = x + 100;
 targ_y = y; 
 path = path_add();
 spd = 2
+mp_potential_path_object(path, targ_x,targ_y, 2, 8,oSolid);
+path_start(path,spd,0,true)				
