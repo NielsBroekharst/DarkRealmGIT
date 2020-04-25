@@ -6,3 +6,8 @@ if targ_x != x and targ_y !=y {
 	}else {
 		shooting = true;
 	}
+	
+if instance_exists(oPortal){
+	
+	
+}

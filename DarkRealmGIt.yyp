@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "32cd9c8a-8a23-46a3-bd73-32105d248ad7",
+            "Value": {
+                "id": "5a199df3-a1d7-43e5-a24e-09114c668d53",
+                "resourcePath": "sprites\\sCable\\sCable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3670aa19-8f8b-414b-99ab-65414316438e",
             "Value": {
                 "id": "8d35ca36-ca8a-40cf-8dca-230f15875247",
